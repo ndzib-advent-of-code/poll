@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-[#466E76] via-[#3E666E] to-[#416971] flex justify-center items-center min-h-screen">
+    <form class="rounded-lg overflow-hidden text-lg leading-6 bg-white text-slate-500 shadow-lg max-w-md md:max-w-lg">
+        <section class="bg-[#F2FCFE] py-8 flex items-center justify-center">
+            <p class="w-[68%] text-center font-bold">
+                If you write a book about failure, and it doesn't sell, is it called success?
+            </p>
+        </section>
+        <section class="[&>.control]:p-8 [&>.control]:border-slate-100 [&>.control]:border-b [&>.control>.field>.input:active]:bg-green-300 [&>.control>.progress]:flex [&>.control>.progress]:justify-between [&>.control>.progress]:items-center [&>.control>.progress>.value]:font-bold [&>.control>.progress>.value]:ml-3 [&>.control>.progress>.value]:text-xl [&>.control>.progress>.bar]:h-3 [&>.control>.progress>.bar]:w-[100%] [&>.control>.progress>.bar]:bg-slate-200 [&>.control>.progress>.bar]:rounded-full [&>.control>.progress>.bar>.indicator]:h-[100%] [&>.control>.progress>.bar>.indicator]:rounded-full">
+            <div class="control">
+                <section class="field">
+                    <input id="def" class="input" type="checkbox">
+                    <label for="def">Definitely a success</label>
+                </section>
+                <section class="progress">
+                    <div class="bar">
+                        <div class="indicator bg-lime-300 w-[65%]">
+                        </div>
+                    </div>
+                    <p class="value">65%</p>
+                </section>
+            </div>
+
+            <div class="control">
+                <section class="field">
+                    <input id="no" class="input" type="checkbox">
+                    <label for="no">No.</label>
+                </section>
+                <section class="progress">
+                    <div class="bar">
+                        <div class="indicator bg-red-500 w-[12%]">
+                        </div>
+                    </div>
+                    <p class="value">12%</p>
+                </section>
+            </div>
+
+            <div class="control">
+                <section class="field">
+                    <input id="only" class="input" type="checkbox">
+                    <label for="only">Only if it's in the How To section of the library.</label>
+                </section>
+                <section class="progress">
+                    <div class="bar">
+                        <div class="indicator bg-orange-400 w-[23%]">
+                        </div>
+                    </div>
+                    <p class="value">23%</p>
+                </section>
+            </div>
+        </section>
+
+
+
+        <section class="text-center py-14">
+            <button class="bg-sky-400 text-white px-12 py-2 rounded-lg shadow-lg">Submit</button>
+        </section>
+    </form>
+</body>
+
+</html>

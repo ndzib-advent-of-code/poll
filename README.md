@@ -1,0 +1,2 @@
+# Result
+![poll](poll.png)
